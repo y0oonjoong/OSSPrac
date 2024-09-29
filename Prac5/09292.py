@@ -1,5 +1,6 @@
-# 이름을 입력하세요
-print("김윤중")
+name = input("이름을 입력하세요 :  ")
+number = input("학번을 입력하세요 :  ")
 
-# 학번을 입력하세요
-print("2020110504")
+print("<출력>")
+print(f"이름: {name}")
+print(f"학번: {number}")
